@@ -1,5 +1,6 @@
 # Prog-C-Hjemmeside
 
-- [min forside](website/index.html)
-- [min opskriftside](website/opskrift.html)
-- [min tændstikmand](stickman/taendstikmand.html)
+- [Forside](website/index.html)
+- [Opskriftside](website/opskrift.html)
+- [Min tændstikmand](stickman/taendstikmand.html)
+- [Endnu tændstikmand](stickman/taendstikmand.html)
