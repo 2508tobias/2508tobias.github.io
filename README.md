@@ -1,3 +1,3 @@
 # Prog-C-Hjemmeside
 
-- [min opskriftside](opskrift.html)
+- [min opskriftside](website/opskrift.html)
