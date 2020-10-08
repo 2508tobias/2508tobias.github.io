@@ -12,7 +12,6 @@ function draw() {
     gårModHøjre = true;
   }
   circle(xpos, 400, diameter);
-var gårModVenstre
 
   if (gårModHøjre == true){
       xpos += 1;
