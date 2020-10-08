@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(235);
   if (xpos == 20) {
     gårModHøjre = true;
   }
