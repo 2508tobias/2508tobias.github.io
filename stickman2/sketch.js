@@ -8,7 +8,7 @@ function setup() {
 
 function draw() {
   background(220);
-  if (xpos >= 20) {
+  if (xpos == 20) {
     gårModHøjre = true;
   }
   circle(xpos, 400, diameter);
@@ -19,7 +19,7 @@ function draw() {
   else {
     xpos -= 1;
   }
-  if (xpos >= 780) {
+  if (xpos == 780) {
     gårModHøjre = false;
   }
   if (xpos == 20) {
