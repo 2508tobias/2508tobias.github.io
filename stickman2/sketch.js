@@ -8,20 +8,20 @@ function setup() {
 
 function draw() {
   background(220);
-  let hastighed = mouseY;
+  let hastighed = mouseX/100;
 
-  if(xpos == 20){
+  if(xpos <= 20){
     gårModHøjre = true;
   }
   circle(xpos, 400, diameter);
 
   if (gårModHøjre == true){
-      xpos += 1*(mouseY/100);
+      xpos += 1*hastighed;
   }
   else{
-    xpos += -1*(mouseY/100);
+    xpos += -1*hastighed;
   }
-  if (xpos == 780){
+  if (xpos >= 780){
       gårModHøjre = false;
   }
   if (xpos == 20){
