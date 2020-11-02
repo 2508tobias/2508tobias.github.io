@@ -1,8 +1,8 @@
 function setup() {
   createCanvas(1000, 1000);
 }
-let circleweight = 5;
-let colour = 250;
+
+let colour = "white";
 function draw() {
  
   let posx = mouseX;
@@ -14,22 +14,25 @@ function draw() {
   line(250, 0, 250, 500);
   line(0, 250, 500, 250);
 
-  strokeWeight(circleweight);
+  strokeWeight(5);
   circle(posx, posy, 100);
 
-  if (posx > 250) {
-    circleweight = 30;
-  }
-  else {
-    circleweight = 5;
-  }
 
-  if (posy > 250) {
-    colour = 0;
+  if (posx < 250 && posy < 250) {
+    colour = "white";
   }
-  else {
-    colour = 250;
+  if (posx > 250 && posy < 250) {
+    colour = "red";
   }
+  if (posx < 250 && posy > 250) {
+    colour = "red";
+  }
+  if (posx > 250 && posy > 250) {
+    colour = "white";
+  }
+  
+
+ 
 
   
 
