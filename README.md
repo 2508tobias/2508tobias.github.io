@@ -6,3 +6,4 @@
 - [Endnu tændstikmand](stickman2/taendstikmand.html)
 - [Løkker](website/opgave1.html)
 - [Logic](logic/logic.html)
+- [Parabel](parabel/parabel.html)
