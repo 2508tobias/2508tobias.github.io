@@ -7,7 +7,7 @@ function draw() {
 
   let ax = 0
   let ay = 0
-  let bx = width / 2
+  let bx = mouseX
   let by = mouseY
   let cx = width
   let cy = 0
@@ -29,11 +29,5 @@ function draw() {
     // circle(x_1, y_1, 10)
     // circle(x_2, y_2, 10)
   }
-
-
-
-
-
-
 }
 
